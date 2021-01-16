@@ -1,18 +1,19 @@
+.container-main {
+    max-width: 1440px;
+}
 .custom-header {
     color: #000000;
 }
 .custom-footer {
     background-color: #5A5B95;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
+    border-top: 3px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #fff;
     color: #FFFFFF;
 }
 .custom-footer .row .col {
     border-right: 3px solid #fff;
-    padding-top: 10px;
 }
 .custom-footer .row .col:last-child {
     border-right: 0;
@@ -24,9 +25,9 @@
 }
 .text-nav {
     color: black;
-    font-family: Roboto;
+    font-family: Regular;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 18px;
     line-height: 21px;
     text-decoration: none;
@@ -39,7 +40,30 @@
     color: black;
     border-bottom: 3px solid #5A5B95;
 }
-
+.text-footer {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: #fff;
+    font-family: Regular;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+}
+.text-footer h3 {
+    font-family: Regular;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+.text-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.text-footer a:hover {
+    border-bottom: 2px solid #ffffff;
+}
 .navbar-mobile-nav {
     list-style-type: none;
 }
@@ -54,5 +78,8 @@
         .custom-header {
             margin-left: -30px;
             margin-right: 0;
+        }
+        .center-footer-item {
+            margin-top: 30px;
         }
     }
