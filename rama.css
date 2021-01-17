@@ -3,7 +3,7 @@
     background-repeat: no-repeat, no-repeat;
     background-size: 100vw, 100vw;
     background-position-x: 400px, -100px;
-    background-position-y: -100px, 50px;
+    background-position-y: -100px, 100px;
     background-size: cover, cover;
 } 
 .container-content {
@@ -37,26 +37,14 @@
     font-size: 12px;
     margin: 0 2rem 0.3rem 2rem;
 }
+.div-article a {
+    font-size: 12px;
+}
 .right-column .div-title {
     margin-bottom: 1rem;
     margin-top: 2rem;
 }
-
 .right-column .div-article {
     margin-bottom: 1.1rem;
 }
-/* img#faq-bg1 {
-    position: absolute;
-    top: 250px;
-    width: fit-content;
-    height: 90%;
-    z-index: -1;
-}
-img#faq-bg2 {
-    position: absolute;
-    width: 1140px;
-    top: 10px;
-    right: 0px;
-    height: 90%;
-    z-index: -1;
-} */
+
