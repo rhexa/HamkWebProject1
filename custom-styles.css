@@ -1,85 +1,44 @@
+body{
+    max-height: 1000px;
+    height: 80%;
+}
+/* background img */
 .container-main {
-    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-size: 100vm;
+    background-position-y:-100px;
+    background-size: cover;
+    background-image:url(https://i.ibb.co/kG2RcPR/figure.jpg);
 }
-.custom-header {
-    color: #000000;
-}
-.custom-footer {
-    background-color: #5A5B95;
-    border-top: 3px solid #fff;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom: 3px solid #fff;
-    color: #FFFFFF;
-}
-.custom-footer .row .col {
-    border-right: 3px solid #fff;
-}
-.custom-footer .row .col:last-child {
-    border-right: 0;
-    border-left: 3px solid #fff;
-}
-.custom-footer h3 {
+.col-md-6 h1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 14px;
-}
-.text-nav {
-    color: black;
-    font-family: Regular;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    font-size: 70px;
     text-decoration: none;
+    padding-left: 80px;
+    padding-top: 30px;
 }
-.active{
-    color: black;
-    border-bottom: 3px solid #5A5B95;
+
+
+.col-md-3 img{
+    max-height:auto;
+    height: 600px;
+    padding-left: 60px;
+    padding-bottom: 150px;
+    transform: rotate(-1deg);
 }
-.text-nav:hover {
-    color: black;
-    border-bottom: 3px solid #5A5B95;
-}
-.text-footer {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: #fff;
-    font-family: Regular;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 12px;
-    line-height: 16px;
-}
-.text-footer h3 {
-    font-family: Regular;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-}
-.text-footer a {
-    color: #fff;
-    text-decoration: none;
-}
-.text-footer a:hover {
-    border-bottom: 2px solid #ffffff;
-}
-.navbar-mobile-nav {
-    list-style-type: none;
-}
-@media screen and (max-width: 780px) {
-        .mobile-hidden{
-            display: none;
-            }
-        .custom-footer .row .col:last-child {
-            border-right: 0;
-            border-left: 0;
-            }
-        .custom-header {
-            margin-left: -30px;
-            margin-right: 0;
+@media screen and (max-width: 860px) {
+
+    .col-md-3 img{
+        display:none;
+
         }
-        .center-footer-item {
-            margin-top: 30px;
-        }
+    .col-md-6 h1{
+        font-size: 3.9rem;
+        padding-right: 35px;
+        margin-top: 50px;
+        margin-bottom: 180px;
     }
+
+}
