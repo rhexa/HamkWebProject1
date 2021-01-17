@@ -52,7 +52,7 @@
     text-decoration: none;
 }
 .text-footer a:hover {
-    border-bottom: 2px solid #ffffff;
+    /* border-bottom: 2px solid #ffffff; */
 }
 .text-nav {
     color: black;
