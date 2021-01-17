@@ -24,8 +24,6 @@
 .div-article {
     background-color: rgba(196, 196, 196, 0.3);
     border: 0.2rem solid #5A5B95;
-    margin-top: 0.7rem;
-    margin-bottom: 1rem;
 }
 .div-article h2 {
     font-size: 18px;
@@ -40,11 +38,18 @@
 .div-article a {
     font-size: 12px;
 }
-.right-column .div-title {
+.left-column .div-title {
+    /* margin-top: 0px; */
+}
+.left-column .div-article {
+    margin-top: 1rem;
     margin-bottom: 1rem;
-    margin-top: 2rem;
+}
+.right-column .div-title {
+    margin-bottom: 0.7rem;
+    /* margin-top: 2rem; */
 }
 .right-column .div-article {
-    margin-bottom: 1.1rem;
+    margin-bottom: 0.7rem;
 }
 
