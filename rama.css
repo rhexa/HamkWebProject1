@@ -2,7 +2,7 @@
     background-image: url(src/images/figure-rotated.jpg), url(src/images/figure.jpg);
     background-repeat: no-repeat, no-repeat;
     background-size: 100vw, 100vw;
-    background-position-x: 400px, -130px;
+    background-position-x: 430px, -130px;
     background-position-y: -100px, 170px;
     background-size: cover, cover;
 } 
