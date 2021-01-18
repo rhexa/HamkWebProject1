@@ -1,19 +1,13 @@
-.container-main {
-    background-image: url(src/images/figure-rotated.jpg), url(src/images/figure.jpg);
-    background-repeat: no-repeat, no-repeat;
-    background-size: 100vw, 100vw;
-    background-position-x: 430px, -130px;
-    background-position-y: -100px, 170px;
-    background-size: cover, cover;
-} 
+/* General */
 .container-content {
     max-width: 1140px;
-    margin-bottom: 130px;
     font-family: Arial, Helvetica, sans-serif;
 }
-img#faq-img {
-    width: 100%;
-    margin-bottom: 3rem;
+.left-column {
+
+}
+.right-column {
+
 }
 .div-title {
     background-color: rgba(196, 196, 196, 0.3);
@@ -43,62 +37,79 @@ img#faq-img {
     color: #5A5B95;
     text-decoration: none;
 }
-.left-column {
-    margin-left: auto;
-    margin-right: auto;
+/* End General */
+
+/* FAQ Page */
+.container-main.page-faq {
+    background-image: url(src/images/figure-rotated.jpg), url(src/images/figure.jpg);
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100vw, 100vw;
+    background-size: cover, cover;
+    background-position-x: 430px, -130px;
+    background-position-y: -100px, 170px;
+} 
+.page-faq .container-content {
+    margin-bottom: 130px;
 }
-.left-column .div-title {
+img#faq-img {
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.page-faq .left-column .div-title {
     margin-top: 2.8rem;
 }
-.left-column .div-article {
+.page-faq .left-column .div-article {
     margin-top: 1rem;
     margin-bottom: 1rem;
 }
-.right-column {
-    margin-left: auto;
-    margin-right: auto;
-}
-.right-column .div-title {
+.page-faq .right-column .div-title {
     margin-bottom: 1rem;
     /* margin-top: 2rem; */
 }
-.right-column .div-article {
+.page-faq .right-column .div-article {
     margin-bottom: 1rem;
 }
+/* End of FAQ */
 
 @media screen and (max-width: 768px) {
-    .container-main {
+    /* FAQ */
+    .container-main.page-faq{
         background-image: url(src/images/figure-rotated.jpg), url(src/images/figure.jpg);
         background-repeat: no-repeat, no-repeat;
         background-size: 100vw, 100vw;
+        background-size: cover, cover;
         background-position-x: -120px, -130px;
         background-position-y: -100px, 100px;
-        background-size: cover, cover;
-    } 
+    }
+    .page-faq .left-column .div-title {
+        margin-top: 1rem;
+    }
     img#faq-img {
         margin-bottom: 0;
     }
-    .left-column .div-title {
-        margin-top: 1rem;
-    }
+    /* End of FAQ */
 }
 @media screen and (max-width: 570px) {
-    .container-main {
+    /* FAQ */
+    .container-main.page-faq{
         background-image: url(src/images/figure-rotated.jpg), url(src/images/figure.jpg);
         background-repeat: no-repeat, no-repeat;
         background-size: 100vw, 100vw;
+        background-size: cover, cover;
         background-position-x: -250px, -130px;
         background-position-y: -100px, 100px;
-        background-size: cover, cover;
-    } 
+    }
+    /* End of FAQ */
 }
 @media screen and (max-width: 500px) {
-    .container-main {
+    /* FAQ */
+    .container-main.page-faq{
         background-image: url(src/images/figure-rotated.jpg), url(src/images/figure.jpg);
         background-repeat: no-repeat, no-repeat;
         background-size: 100vw, 100vw;
+        background-size: cover, cover;
         background-position-x: -330px, -130px;
         background-position-y: -100px, 100px;
-        background-size: cover, cover;
-    } 
+    }
+    /* End of FAQ */
 }
