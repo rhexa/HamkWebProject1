@@ -71,6 +71,112 @@ img#faq-img {
 }
 /* End of FAQ */
 
+/* Gallery */
+.page-gallery .container-content {
+    margin-bottom: 100px;
+}
+.div-card {
+    /* height: 250px; */
+    width: 100%;
+    height: 275px;
+    background-color: white;
+    border: 0 1px 1px 1px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.div-card-header h2 {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.div-card-header p {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.div-card-type {
+}
+.div-card-type p {
+    margin: 0 auto;
+    width: 60px;
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 3px;
+    color: white;
+    background-color: #fd979a;
+    position: relative;
+}
+.div-card-header {
+    text-align: center;
+}
+.div-card-img {
+    text-align: center;
+    max-height: 150px;
+}
+.div-card-img img {
+    max-height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.div-card-price {
+    width: 50%;
+    padding: 0;
+    margin-left: 25px;
+    display: inline;
+}
+.div-card-price p {
+    display: inline;
+    width: 30px;
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0;
+    margin: 0;
+}
+.div-card-price h2 {
+    display: inline;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+}
+.div-card-extra {
+    margin: 0 auto;
+    text-align: center;
+}
+.div-card-extra img {
+    margin-top: -15px;
+    max-width: 154px;
+}
+.div-card-button {
+    display: inline;
+    padding: 0;
+}
+.card-button {
+    display: inline-block;
+    position: relative;
+    background-color: #5A5B95;
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 2px 15px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 10px;
+    top: -2px;
+    right: -37px;
+    margin: 0;
+    cursor: pointer;
+}
+.card-button:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/* End of Gallery */
+
 @media screen and (max-width: 768px) {
     /* FAQ */
     .container-main.page-faq{
