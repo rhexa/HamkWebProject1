@@ -205,7 +205,47 @@ img#faq-img {
     border: 0 1px 1px 1px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 4px 4px #5A5B95;
 }
-
+div.calendar-title {
+    width: 80px;
+    height: 30px;
+    border-bottom: 3px solid #5A5B95;
+}
+div.calendar-title h3 {
+    overflow: visible;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: -100px;
+    margin-right: -100px;
+}
+div#box1 {
+    border-right: 2px solid #5A5B95;
+    border-bottom: 2px solid #5A5B95;
+    margin-bottom: -15px;
+}
+div#box2 {
+    margin-bottom: -15px;
+    border-bottom: 2px solid #5A5B95;
+    border-left: 2px solid #5A5B95;
+}
+div#box3 {
+    padding-top: 30px;
+    margin: 15px 0 0 0;
+    border-top: 2px solid #5A5B95;
+    border-right: 2px solid #5A5B95;
+}
+div#box4 {
+    padding-top: 27px;
+    margin: 15px 0 0 0;
+    border-left: 2px solid #5A5B95;
+    border-top: 2px solid #5A5B95;
+}
+.calendar-start {
+    margin-left: 20px;
+}
+.calendar-end {
+    margin-top: 48px;
+    margin-left: 20px;
+}
 /* End of Gallery */
 
 @media screen and (max-width: 768px) {
