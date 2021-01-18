@@ -72,8 +72,14 @@ img#faq-img {
 /* End of FAQ */
 
 /* Gallery */
+.page-gallery.container-main{
+    background-image: url(src/images/figure-rotated.jpg);
+    background-position-x: 500px;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+}
 .page-gallery .container-content {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .page-gallery .div-title {
     background-color: white;
