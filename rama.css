@@ -75,6 +75,22 @@ img#faq-img {
 .page-gallery .container-content {
     margin-bottom: 100px;
 }
+.page-gallery .div-title {
+    background-color: white;
+    border: 0;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.page-gallery .div-title h1 {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.page-gallery span.city {
+    color: #5A5B95;
+    font-size: 45px;
+    text-decoration: underline #fd979a dashed;
+}
 .div-card {
     /* height: 250px; */
     width: 100%;
