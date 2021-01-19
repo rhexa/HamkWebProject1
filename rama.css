@@ -98,8 +98,7 @@ img#faq-img {
     text-decoration: underline #fd979a dashed;
 }
 .div-card {
-    /* height: 250px; */
-    width: 100%;
+    width: 261px;
     height: 275px;
     background-color: white;
     border: 0 1px 1px 1px rgba(0, 0, 0, 0.25);
@@ -189,7 +188,7 @@ img#faq-img {
     text-decoration: none;
     font-size: 10px;
     top: -2px;
-    right: -37px;
+    right: -55px;
     margin: 0;
     cursor: pointer;
 }
