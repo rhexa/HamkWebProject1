@@ -308,6 +308,7 @@ div#box4 {
     left: 380px;
 }
 .bg-text {
+    display: block;
     position: relative;
     top: -240px;
     left: 450px;
@@ -398,6 +399,12 @@ div#box4 {
 }
 /* end mobile */
 /* End of Gallery */
+
+@media screen and (max-width: 1380px) {
+    .bg-text  {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 1224px) {
     .page-gallery .div-title h1 {
