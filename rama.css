@@ -492,9 +492,9 @@ div#box4 {
         font-size: 22px;
     }
     .page-gallery .bg-image {
-        top: -10px;
-        left: -20px;
-        width: 150px;
+        top: 40px;
+        left: 50px;
+        width: 125px;
     }
 }
 @media screen and (max-width: 570px) {
@@ -516,10 +516,11 @@ div#box4 {
         background-repeat: no-repeat;
     }
     .page-gallery .div-title h1 {
-        font-size: 20px;
+        font-size: 18px;
+        margin-right: -40px;
     }
     .page-gallery .div-title span.city {
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 @media screen and (max-width: 500px) {
