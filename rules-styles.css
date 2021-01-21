@@ -21,6 +21,10 @@ h2{
 
 }
 
+article {
+    margin-right: 5px;
+}
+
 .div-title{
     align-content: right;
     max-width: 800px;
@@ -76,6 +80,9 @@ div.col-12.div-article{
     margin-bottom: 40px;
 }
 div.col-md-6.right-column{
-    padding-left: 70px !important;
+    /* padding-left: 70px !important; */
     max-width: 800px !important;
+}
+.right-column {
+    margin: 0;
 }
