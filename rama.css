@@ -221,19 +221,19 @@ div.calendar-title h3 {
     margin-left: -100px;
     margin-right: -100px;
 }
-div#box1 {
+div.box1 {
     border-right: 2px solid #5A5B95;
     border-bottom: 2px solid #5A5B95;
     margin-bottom: -15px;
     overflow: visible;
     white-space: nowrap;
 }
-div#box2 {
+div.box2 {
     margin-bottom: -15px;
     border-bottom: 2px solid #5A5B95;
     border-left: 2px solid #5A5B95;
 }
-div#box3 {
+div.box3 {
     padding-top: 30px;
     margin: 15px 0 0 0;
     border-top: 2px solid #5A5B95;
@@ -241,7 +241,7 @@ div#box3 {
     overflow: visible;
     white-space: nowrap;
 }
-div#box4 {
+div.box4 {
     padding-top: 27px;
     margin: 15px 0 0 0;
     border-left: 2px solid #5A5B95;
@@ -337,25 +337,25 @@ div#box4 {
 .div-calendar.d-block .calendar-end {
     margin-top: 30px;
 }
-.div-calendar.d-block div#box1 {
+.div-calendar.d-block div.box1 {
     border-right: 2px solid #5A5B95;
     border-bottom: 2px solid #5A5B95;
     margin-bottom: -15px;
     margin-left: -18px;
 }
-.div-calendar.d-block div#box2 {
+.div-calendar.d-block div.box2 {
     margin-bottom: -15px;
     border-bottom: 2px solid #5A5B95;
     border-left: 2px solid #5A5B95;
 }
-.div-calendar.d-block div#box3 {
+.div-calendar.d-block div.box3 {
     height: 42px;
     padding-top: 10px;
     margin: 15px 0 0 -18px;
     border-top: 2px solid #5A5B95;
     border-right: 2px solid #5A5B95;
 }
-.div-calendar.d-block div#box4 {
+.div-calendar.d-block div.box4 {
     height: 42px;
     padding-top: 10px;
     margin: 15px 0 0 0;
@@ -368,7 +368,7 @@ div#box4 {
     left: -9px;
 }
 /* logo calendar */
-.div-calendar.d-block div#box1 img, .div-calendar.d-block div#box3 img {
+.div-calendar.d-block div.box1 img, .div-calendar.d-block div.box3 img {
     position: relative;
     left: -10px;
 }
